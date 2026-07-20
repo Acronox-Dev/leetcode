@@ -29,4 +29,4 @@ class Solution:
 
             return max(s_l,s_m,s_r)
 
-        return aux(0, len(nums) - 1)
+        return aux(0, len(nums) - 1) # type: ignore
